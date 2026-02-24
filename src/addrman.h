@@ -1,10 +1,10 @@
 // Copyright (c) 2012 Pieter Wuille
-// Copyright (c) 2012-present The Bitcoin Core developers
+// Copyright (c) 2012-present The tocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_ADDRMAN_H
-#define BITCOIN_ADDRMAN_H
+#ifndef tocoin_ADDRMAN_H
+#define tocoin_ADDRMAN_H
 
 #include <netaddress.h>
 #include <netgroup.h>
@@ -211,4 +211,4 @@ public:
     std::optional<AddressPosition> FindAddressEntry(const CAddress& addr);
 };
 
-#endif // BITCOIN_ADDRMAN_H
+#endif // tocoin_ADDRMAN_H
