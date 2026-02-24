@@ -1,9 +1,9 @@
-// Copyright (c) 2018-present The Bitcoin Core developers
+// Copyright (c) 2018-present The tocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_BLOCKFILTER_H
-#define BITCOIN_BLOCKFILTER_H
+#ifndef tocoin_BLOCKFILTER_H
+#define tocoin_BLOCKFILTER_H
 
 #include <cstddef>
 #include <cstdint>
@@ -173,4 +173,4 @@ public:
     }
 };
 
-#endif // BITCOIN_BLOCKFILTER_H
+#endif // tocoin_BLOCKFILTER_H
